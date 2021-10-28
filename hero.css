@@ -4,18 +4,22 @@
 }
 /* ====container====*/
 
-@media screen and (max-width:800px) {
-.container {
-	padding: 0px;
-	
-}
-}
+
 .container {
 	background-color: #F6F2F2;
-	margin-left: 80px;
-	margin-right: 80px;
+	margin-left: 60px;
+	margin-right: 60px;
 	margin-bottom: 20px;
 	border-radius: 40px;
+}
+ /* container-2 */
+.container-2 {
+	background-color: #F6F2F2;
+	margin-bottom: 20px;
+	border-radius: 40px;
+	margin-left: 60px;
+	margin-right: 60px;
+	box-sizing: border-box;
 }
 
 /*===button====*/
@@ -48,12 +52,12 @@
 	background-position: center;
 	background-size: contain;
 }
-.box1-box1{
+.pbox1{
 	width: 850px;
 	margin-right: auto;
 	margin-left: auto;
 }
-.titeleh1 h2 {
+.titeleh1 h1 {
 	font-size: 100px;
 	color: #edc009;
 	text-align: center;
@@ -73,7 +77,7 @@
 }
 /* ==== box1 end ===*/
 
-h1 {
+h6 {
 	font-size: 64px;
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
@@ -86,19 +90,21 @@ h1 {
     padding-top: 30px;
     padding-bottom: 50px;
 }
-.box2 h2 {
+.box2 h1 {
 	font-size: 36px;
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
 }
-
+.box2 h2 {
+	margin-top: 50px;
+	font-size: 36px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
 .data-set {
-	margin-bottom: 50px;
-	padding-left: 69px;
-	padding-right: 69px;
 	font-family: 'Noto Sans', sans-serif;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 }
 .data-set a {
 	color: black;
@@ -110,8 +116,6 @@ h1 {
 	border-radius: 30px;
 	padding: 25px;
 	margin-top: 30px;
-	display: flex;
-	flex-direction: column;
 	transition: all 0.1s ease;
 	border: 1px solid transparent;
 }
@@ -120,13 +124,11 @@ h1 {
 	margin-bottom: 10px;
 }
 .data-set-column i {
-    font-size: 100px;
-}
-.data-set-column i {
+	font-size: 100px;
 	margin-bottom: 20px;
 	display: flex;
-	text-align: center;
 	flex-direction: column;
+	align-items: center;
 }
 /* hover efect for data colimn*/
 .data-set-column:hover {
@@ -141,22 +143,20 @@ h1 {
     padding-top: 30px;
     padding-bottom: 50px;
 }
-.box3 h2 {
+.box3 h1 {
 	font-size: 36px;
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
 	margin-bottom: 30px;
 }
-.box3 h5 {
+.box3 h2 {
+	margin-top: 50px;
 	font-size: 36px;
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
 	margin-bottom: 30px;
 }
 .data-set-2 {
-	margin-bottom: 50px;
-	padding-left: 205px;
-	padding-right: 205px;
 	font-family: 'Noto Sans', sans-serif;
 	display: flex;
 	justify-content: space-evenly;
@@ -170,28 +170,347 @@ h1 {
 	width: 300px;
 	border-radius: 30px;
 	padding: 25px;
-	display: flex;
-	flex-direction: column;
-	transition: all 0.3s ease;
+	margin-top: 30px;
+	transition: all 0.1s ease;
 	border: 1px solid transparent;
 }
-.data-set-column-2 h3{
+.data-set-column-2 h3 {
 	font-size: 18px;
 	margin-bottom: 10px;
 }
 .data-set-column-2 i {
     font-size: 100px;
-}
-.data-set-column-2 i {
-	margin-bottom: 20px;
-	display: flex;
-	text-align: center;
+    margin-bottom: 20px;
+    display: flex;
 	flex-direction: column;
+	align-items: center;
 }
 /* hover efect for data colimn*/
 .data-set-column-2:hover {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
- /*------------------------------ ==== what Goodwill Ambassadors do end ====== ------------------------*/
 
+ /*-- ==== what Goodwill Ambassadors do end ====== ----*/
 
+/*      --------       -------------------------  media   ---------------------------------------*/
+
+/*  ------    ---------- 1250px to 1500px -------------------*/
+@media only screen and (max-width: 1300px) {
+.container {
+	background-color: #F6F2F2;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 10px;
+	border-radius: 40px;
+}
+.data-set {
+	font-family: 'Noto Sans', sans-serif;
+	display: flex;
+	justify-content: space-evenly;
+}
+.box2 {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+/*-- container2*/
+.container-2 {
+	background-color: #F6F2F2;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 10px;
+	border-radius: 40px;
+}
+.data-set-2 {
+	font-family: 'Noto Sans', sans-serif;
+	display: flex;
+	justify-content: space-evenly;
+}
+.box3 {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+}
+
+/*-------------------- 1250px to 1300px -----------------*/
+@media only screen and (max-width: 1250px) {
+.container {
+	background-color: #F6F2F2;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	border-radius: 40px;
+}
+.data-set {
+	font-family: 'Noto Sans', sans-serif;
+	display: flex;
+	justify-content: space-evenly;
+}
+.box2 {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+/*  ------ container2 ---*/
+.container-2 {
+	background-color: #F6F2F2;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	border-radius: 40px;
+}
+.data-set-2 {
+	font-family: 'Noto Sans', sans-serif;
+	display: flex;
+	justify-content: space-evenly;
+}
+.box3 {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+}
+  
+  /*  ------------------------  1200px to 1250px ------------------- ------*/
+
+@media only screen and (max-width: 1200px) {
+.container {
+	background-color: #F6F2F2;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	border-radius: 20px;
+}
+.data-set {
+	font-family: 'Noto Sans', sans-serif;
+	display: flex;
+	justify-content: space-evenly;
+}
+.data-set-column {
+	background-color: #fff;
+	width: 250px;
+	border-radius: 20px;
+	padding: 15px;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	transition: all 0.1s ease;
+	border: 1px solid transparent;
+}
+.box2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/*---- container2--*/
+.container-2 {
+	background-color: #F6F2F2;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	border-radius: 20px;
+}
+.data-set-2 {
+	font-family: 'Noto Sans', sans-serif;
+	display: flex;
+	justify-content: space-evenly;
+}
+.data-set-column-2 {
+	background-color: #fff;
+	width: 250px;
+	border-radius: 20px;
+	padding: 15px;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	transition: all 0.1s ease;
+	border: 1px solid transparent;
+}
+.box3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+}
+
+        /*------------------------------------ 0px to 900px ---------------------------*/
+
+@media only screen and (max-width: 700px) {
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+/*----------------------------*/
+
+.container {
+	background-color: #F6F2F2;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+ /* container-2 */
+.container-2 {
+	background-color: #F6F2F2;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	box-sizing: border-box;
+}
+
+/*===button====*/
+.btn {
+	height: 30px;
+	width: 80px;
+	font-size: 12px;
+	border: none;
+	font-weight: 600;
+	color: #fff;
+	border-radius: 8px;
+	background-color: #0B6655;
+	background-image: linear-gradient(-180deg, #00D775, #00BD68);
+	transition: all 0.4s ease;
+}
+.btn:hover {
+	color: #fff;
+	font-size: 11px;
+	background-image: linear-gradient(#464d55, #25292e);
+}
+           /*---- butoon end -------*/
+/*  ------------  page1 -------------------------------------------*/
+/* ----------------- box1 -------------- */
+
+.box1 { 
+	width: 100%;
+	height: 200px;
+}
+.pbox1{
+	width: 50%;
+}
+.titeleh1 h1 {
+	padding-top: 85px;
+	font-size: 24px;
+}
+.box1 p {
+	font-size: 12px;
+	line-height: 16px;
+
+}
+.box1 a {
+	text-decoration: none;
+	color: #fff;
+}
+/* ==== box1 end ===*/
+
+h6 {
+	font-size: 16px;
+	margin-top: 20px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+/*  ----------------------   page 2   -----------------------*/
+/* box 2*/
+.box2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.box2 h1 {
+	font-size: 18px;
+}
+.box2 h2 {
+	font-size: 18px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+.data-set {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	font-family: 'Noto Sans', sans-serif;
+}
+.data-set a {
+	color: black;
+	text-decoration: none;
+}
+.data-set-column {
+	width: 80%;
+	padding-top: 20px;
+	transition: all 0.1s ease;
+	border: 1px solid transparent;
+}
+.data-set-column h3 {
+	font-size: 14px;
+	margin-top: 0;
+}
+.data-set-column i {
+    font-size: 70px;
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.data-set-column p {
+    font-size: 12px;
+}
+/* hover efect for data colimn*/
+.data-set-column:hover {
+/*border: 1px solid #0B6655;*/
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+/*  ----------------------------------- page 3 ----------------------------------------------*/
+/*------------------------------ ==== what Goodwill Ambassadors do end ====== ------------------------*/
+/*  === box3 ====  */
+.box3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.box3 h1 {
+	font-size: 18px;
+	margin: 0px;
+}
+.box3 h2 {
+	font-size: 18px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+.data-set-2 {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	font-family: 'Noto Sans', sans-serif;
+}
+.data-set-2 a {
+	color: black;
+	text-decoration: none;
+}
+.data-set-column-2 {
+	width: 80%;
+	padding-top: 20px;
+	display: flex;
+    flex-direction: column;
+	transition: all 0.1s ease;
+	border: 1px solid transparent;
+}
+.data-set-column-2 h3{
+	font-size: 14px;
+	margin-top: 0;
+}
+.data-set-column-2 i {
+    font-size: 70px;
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.data-set-column-2 p {
+    font-size: 12px;
+}
+/* hover efect for data colimn*/
+.data-set-column-2:hover {
+/*border: 1px solid #0B6655;*/
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+}
+
+ 
