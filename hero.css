@@ -241,6 +241,9 @@ h6 {
 	margin-bottom: 10px;
 	border-radius: 40px;
 }
+h6 {
+	font-size: 54px;
+}
 .data-set {
 	font-family: 'Noto Sans', sans-serif;
 	display: flex;
@@ -344,7 +347,9 @@ h6 {
 .box1 p {
 	font-size: 24px;
 	line-height: 24px;
-
+}
+h6 {
+	font-size: 36px;
 }
 .box1 a {
 	text-decoration: none;
